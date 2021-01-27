@@ -1,0 +1,33 @@
+:root {
+	--bghl: #ddd;
+	--fghl: #000;
+}
+body {
+	margin: 0 5vw;
+	width: 90vw;
+	text-align: center;
+}
+a {
+	display: inline-block;
+	padding: var(--pad);
+	width: var(--size);
+	height: var(--size);
+	border-radius: 25%;
+	font-family: linjapona;
+	font-size: var(--size);
+	font-weight: bold;
+	text-decoration: none;
+	color: var(--fghl);
+}
+a:visited {
+	color: inherit;
+}
+a:hover {
+	background-color: var(--bghl);
+	color: var(--fghl);
+}
+
+@font-face {
+	font-family: linjapona;
+	src: url("linja pona 3.6.otf");
+}
